@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+h1{
+  font-size: 3rem;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.navbar{
+  position:fixed;
+}
+
+.navright{
+  float: right;
+}
+
+.logo, h3{
+  float: left;
+  padding: 20px,20px,20px,20px;
+}
+
+.navbar {
+  /*background-color:rgba(255,255,255,0.5);*/
+  height: 8vh;
+  width:100%;
+  color:#73CD83;
+
+}
+
+
+.navbar a {
+  float: left;
+  color: #73CD83;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  border-bottom: 5px solid #FCAFE6;
+  color: #FCAFE6;
+}
+
+.navbar a.active {
+  border-bottom: 5px solid green;
+  color: #FCAFE6;
+}
+
+.teamlogo{
+  height: 15%;
+  width: 15%;
+  display: block;
+  float: left; 
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+
+section#home h1 {
+  font-size: 250%;
+  width: 40%;
+  text-align: left;
+  color: #73CD83;
+  padding: 2%;
+  
+}
+
+section#home h3{
+  width: 40%;
+  text-align: left;
+  padding: 2%;
+  font-size: 200%;
+  font-family: 'Poiret One', cursive;
+  
+}
+
+section#about {
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  background-size: 30%, 20%;
+  background-repeat: no-repeat;
+  background-position:  bottom left, top right;
+  background-image: url("/Users/claireegorp/Desktop/Web course/finalproject/images/Young and happy-4.gif"), url("/Users/claireegorp/Desktop/Web course/finalproject/images/worldpage2.jpg");
+  background-color: white;
+}
+
+/* Section Images */
+section#home {
+  background: #C4F9EE;
+  background-image: url("/Users/claireegorp/Downloads/guarde-ilustracion-concepto-planeta-personas-globo/3826549.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position:  bottom right;
+  
+
+}
+section#about h1{
+  width: 60%;
+  text-align: left;
+  padding: 2%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: darkgreen;
+  font-size: 250%;
+  text-align: center;
+  padding: 10%;
+}
+
+/*Logos*/
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  justify-content: left;
+  padding: 15%;
+}
+
+.logos h5, h2{
+  color: green;
+}
+
+.img_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  width: 20%;
+  height: 10vh;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 10px gray;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.img_wrap:hover {
+  transform: scale(1.1);
+}
+
+.img_img {
+  width: 100%;
+  height: 30%;
+  opacity: 0;
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+
+/*Descriptions*/
+
+
+.img_description {
+  display: flex;
+  
+  color: darkgreen;
+  width: 100%;
+  font-size: 0.3rem;
+}
+
+footer{
+color: #73CD83;
+position: relative;
+bottom: 0px;
+padding-top: 80px;
+text-align: left;
+position: fixed;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .logos{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-content: right;
+    height: 60%;
+    width: 50%;
+  }
+  section#about {
+    flex-direction: column;
+  }
+
+.img_wrap {
+    height: 10vh;
+ 
+  }
+}

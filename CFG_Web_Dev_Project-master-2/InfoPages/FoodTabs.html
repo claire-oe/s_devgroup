@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../StyleSheets/FoodTabs.css" rel="stylesheet">
+    <link href="../StyleSheets/FoodPage.css" rel="stylesheet">
+   <!-- <link href="../StyleSheets/navbarStyle.css" rel="stylesheet">-->
+    <title>Document</title>
+</head>
+<!--<header>
+    <nav class="navbar">
+
+        <div class="squad">
+            <img class="teamlogo" src="../Images/Main/Team.png" alt="Team logo"/>
+            <h3> Sustainable Dev Squad </h3>
+        </div>
+        <ul class="navLinks">
+          <li class="links"><a href="../Main.html">Back to home page</a></li>
+          <li class="links"><a href="../NavBarPages/MeetTheTeam.html">Meet the Sustainable Dev Squad</a></li>
+          <li class="links"><a href="./FoodTabs.html">Food</a></li>
+          <li class="links"><a href="./Transport.html">Transport</a></li>
+          <li class="links"><a href="./Energy.html">Comparison of energy providers</a></li>
+        </ul>
+      </nav>
+ </header>-->
+ <nav class="navbar">
+    <div class="logo">
+        <img class="teamlogo" src="../Images/logo.png" alt="Team logo"/>
+        <h3 class="navTitle"> Eco Info Hub </h3>
+    </div>
+
+
+    <div class="navright">
+        <a class="active" href="../Main.html">Back to home page</a>
+        <a href="../NavBarPages/MeetTheTeam.html">Meet the Sustainable Dev Squad</a>
+        <a href="../InfoPages/FoodTabs.html">Food</a>
+        <a href="../InfoPages/Transport.html">Transport</a>
+        <a href="../InfoPages/Energy.html">Comparison of energy providers</a>
+    </div> 
+    
+</nav>
+<body
+    ><ul class="tabs">
+        <li data-tab-target = "#HomeTab" class="active tab" id="facts">Facts</li>
+        <li data-tab-target = "#Tab1" class="tab">Nutrition</li>
+        <li data-tab-target = "#Tab2" class="tab" id="meals">Meal Ideas</li>
+    </ul
+    ><div class="tab-content"
+    ><div id="HomeTab" data-tab-content class="active">
+            <h1 id="testing">
+                Food: Facts
+            </h1>
+            <h3>A plant-based diet is well-proven as the best for the environment (and your health!). Hover over the facts to find out more.</h3>
+            <div class="images1">
+                <div class="singleimage" id="descr1">
+                    <div class="descr"> "Not eating <span class="bold">dairy and meat</span> is the <span class="bold">biggest</span> way to reduce your impact on the earth" </div>
+                    <img id="img1" src="../Images/Food/envImpactDiets.JPG">
+                </div>
+                <div class="singleimage" id="descr2">
+                    <div class="descr"> "More than <span class="bold"> 80% of farmland</span> is used for livestock but it <span class="bold"> produces 18%</span> of food calories and 37% of protein"</div>
+                    <img id="img2" src="../Images/Food/ProteinEfficiency.JPG" >
+                    <div class="descr">"Without <span class="bold">meet</span> and <span class="bold">dairy</span> consumption, global farmland use could be <span class="bold">reduced</span> by more than <span class="bold">75%</span>"</div>
+                </div>
+                <div class="singleimage"  id="descr3">
+                    <div class="descr">"Foods associated with <span class="bold">improved health</span> often have  <span class="bold">low environmental</span> impacts"</div>
+                    <img id="img3" src="../Images/Food/HealthVEnv.png" >
+                </div>
+            </div>
+            <div class="images2">
+                <div id="descr4" class="singleimage">
+                    <div class="descr"> "<span class="bold">Beef</span> emits <span class="bold">192 times more carbon dioxide</span> than <span class="bold">nuts</span>, per gram of protein it provides"</div>
+                    <img id="img4" src="../Images/Food/CO2perProtein.png">
+                </div>
+                <div id="descr5" class="singleimage">
+                    <div class="descr"> Considering both <span class="bold">health </span> and the <span class="bold">environment</span>, evidence suggests that <span class="bold">eggs and poultry</span> could be the least harmful animal products.</div>
+                    <img id="img5" src="../Images/Food/HealthVEnvGraph.png">
+                </div>
+            </div>
+        </div>
+        <div id="Tab1" data-tab-content >
+            <h1>
+                Getting Enough Nutrients
+            </h1>
+            <table width = "80%" class="Nutrients">
+                <thead>
+                    <tr>
+                        <th>A plant-based diet is rich in...</th> <th class="row2">But not so high in...</th>
+                    </tr>
+                    <tr>
+                        <td class="NutrList" width = "50%">
+                            <ul>
+                                <li>Fibre </li>
+                                <li>Antioxidants</li>
+                                <li>Potassium</li>
+                                <li>Magnesium</li>
+                                <li>Folate</li>
+                                <li>Vitamin A</li>
+                                <li>Vitamin C</li>
+                                <li>Vitamin E</li>
+                            </ul>
+                        </td> 
+                        <td width = "50%" class="row2"> 
+                            <ul>
+                                <li><a href="https://www.healthline.com/nutrition/7-plant-sources-of-omega-3s">Omega 3 Fatty Acids </a></li>
+                                <li> <a href="https://www.medicalnewstoday.com/articles/320524#foods-for-vegans">Vitamin B12</a></li>
+                                <li><a href="https://www.vegansociety.com/resources/nutrition-and-health/nutrients/iron"> Iron</a></li>
+                                <li> <a href="https://www.healthline.com/nutrition/vegan-calcium-sources#2.-Beans,-Peas,-and-Lentils">Calcium </a></li>
+                                <li> <a href="https://www.veganfoodandliving.com/vegan-diet/vegan-nutrition/the-best-sources-of-iodine-on-a-vegan-diet/">Iodine </a></li>
+                                <li> <a href="https://www.healthline.com/health/vegan-vitamin-d">Vitamin D</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </thead>
+        </table>
+        
+        <h3> It's possible to receive all the nutrients you need from a vegan diet. There are just some nutrients we traditionally receive from animal products, so it's important not to cut them out completely. Here are some vegan sources of those nutrients: </h3>
+        
+        <table>
+            <tr>
+                <td>
+                    <img src="../Images/Food/omega3.jpg">
+                </td>
+                <td>
+                    <img src="../Images/Food/vitB12.jpg">
+                </td>
+                <td>
+                    <img src="../Images/Food/iron.jpg">
+                </td>
+                <td>
+                    <img src="../Images/Food/calcium.png">
+                </td>
+                <td>
+                    <img src="../Images/Food/iodine.jpg">
+                </td>
+                <td>
+                    <img src="../Images/Food/vitD.jpg">
+                </td>
+            </tr>
+            <tr class="NutrHead">
+                <td>Omega 3</td>
+                <td>Vitamin B12</td>
+                <td>Iron</td>
+                <td>Calcium</td>
+                <td>Iodine</td>
+                <td>Vitamin D</td>
+            </tr>
+            <tr class="NutrList">
+                <td>
+                    <ul>
+                        <li>Flaxseed</li>
+                        <li>Rapeseed</li>
+                        <li>Soya and tofu</li>
+                        <li>Walnuts</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Fortified cereals</li>
+                        <li>Soya drinks</li>
+                        <li>Yeast extract</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Pulses</li>
+                        <li>Wholemeal flour</li>
+                        <li>Fortified cereals</li>
+                        <li>Green vegetables</li>
+                        <li>Nuts</li>
+                        <li>Dried fruits</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Green vegetables</li>
+                        <li>Soya and oat milk</li>
+                        <li>Tofu</li>
+                        <li>Sesame seeds</li>
+                        <li>Pulses</li>
+                        <li>Bread</li>
+                        <li>Dried fruit</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Wholegrains</li>
+                        <li>Green vegetables</li>
+                        <li>Seaweed</li>
+                        <li>Strawberries</li>
+                        <li>Salt</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Sunlight</li>
+                        <li>Fortified cereals</li>
+                        <li>Soya drinks</li>
+                        <li>Supplements</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div id="Tab2" data-tab-content>
+            <h1>
+                Sample Meal Plan
+            </h1>
+            <div class="mealPics">
+                <img class="mealPic" src="../Images/Food/mealIdeas/porridge.jpg">
+                <img class="mealPic" src="../Images/Food/mealIdeas/burger.jpg">
+                <img class="mealPic" src="../Images/Food/mealIdeas/tagine.jpg">
+                <img class="mealPic" src="../Images/Food/mealIdeas/falafel.jpg">
+                <img class="mealPic" src="../Images/Food/mealIdeas/padthai.jpg">
+            </div>
+        
+            <table width="90%" class="mealPlan">
+                <tr>
+                  <th></th>
+                  <th class="mealtype">Breakfast</th>
+                  <th class="mealtype">Lunch</th>
+                  <th class="mealtype">Dinner</th>
+                </tr>
+                <tr class="mealRows">
+                  <th class="weekday">Monday</th>
+                  <td> Porridge with soya milk, berries and nut butter</td>
+                  <td >Baked tofu burgers</td>
+                  <td > Aubergine and chickpea tagine</td>
+                </tr>
+                <tr class="mealRows">
+                  <th class="weekday">Tuesday</th>
+                  <td >Tempeh bacon, mushrooms and avocado on toast</td>
+                  <td > Falafel, houmous and salad with pitta</td>
+                  <td >Tofu and seaweed ramen</td>
+                </tr>
+                <tr class="mealRows">
+                  <th class="weekday">Wednesday</th>
+                  <td >Coconut yoghurt with granola, fruit and seeds</td>
+                  <td >Vegan sausage sandwich and salad</td>
+                  <td >Lentil, coconut and spinach dal</td>
+                </tr >
+                <tr class="mealRows">
+                  <th class="weekday">Thursday</th>
+                  <td >Banana and peanut butter quesadillas</td>
+                  <td >Bean salad, beetroot and quinoa salad</td>
+                  <td >Soya mince spaghetti bolognaise</td>
+                </tr>
+                <tr class="mealRows">
+                  <th class="weekday">Friday</th>
+                  <td >Apple and cinnamon overnight oats</td>
+                  <td >Black bean burger</td>
+                  <td >Tofu pad thai</td>
+                </tr>
+                <tr class="mealRows">
+                  <th class="weekday">Saturday</th>
+                  <td >Fruit and nut muesli with soya milk</td>
+                  <td >Mac and "cheese"</td>
+                  <td >Five bean chilli</td>
+                </tr>
+                <tr class="mealRows">
+                  <th class="weekday">Sunday</th>
+                  <td >Scrambled tofu and avocado on toast</td>
+                  <td >Nut roast with roasted vegetables</td>
+                  <td >Chickpea and butternut squash curry</td>
+                </tr>
+              </table>
+              <h2 class="dessertTitle">
+                  And what about dessert? 
+              </h2>
+              <div class="desserts">
+                  <p class="dessertDesc">Vegan cookies can be just as good as any other! For a double chocolate chip cookie recipe click <a href="https://lovingitvegan.com/vegan-chocolate-cookies/">here</a>.</p>
+                  <img class="dessertPic" src="../Images/Food/mealIdeas/cookies.png">
+              </div>
+              <div class="desserts" >
+                    <img class="dessertPic" src="../Images/Food/mealIdeas/pavlova.jpg">
+                    <p class="dessertDesc">Aquafaba is an amazing replacement for egg white, so you can still enjoy pavlovas! Recipe <a href="https://cookveggielicious.com/vegan-aquafaba-pavlova-coconut-cream-berries">here</a>.</p>
+              </div>
+              <div class="desserts">
+                  <p class="dessertDesc">You can make super tasty vegan cakes too! Just like <a href="https://www.bbcgoodfood.com/recipes/vegan-carrot-cake">this</a> carrot cake!</p>
+                  <img class="dessertPic" src="../Images/Food/mealIdeas/carrot.jpg">
+              </div>
+              <div class="desserts">
+                  <img class="dessertPic" src="../Images/Food/mealIdeas/crumble.jpg">
+                  <p class="dessertDesc">And fruit crumbles can be just as good as ever. Such as <a href="https://www.thepetitecook.com/vegan-apple-crumble/">this</a> spiced apple one.</p> 
+              </div>
+        </div>
+    </div>
+</body>
+<footer> </footer>
+<script src="../Scripts/Food.js"></script>
+<script src="../Scripts/FoodTabs.js"></script>
+</html>
